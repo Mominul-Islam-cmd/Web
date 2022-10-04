@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(228, 227, 233);
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(173, 182, 179);
+    margin:0 auto;
+    padding: 20px;
+
+}
+.header-part{
+    align-items: tex;
+}
+.ppimg{
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+    float: left;
+}
+.about{
+    float:left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:rgb(22, 130, 130); ;
+}
+
+.contact{
+    float: right;
+    padding: 30px;
+}
+
+.contact a{
+
+    text-decoration: none;
+    color: rgb(99, 37, 198);
+    font-weight: bold;
+}
+
+.contact a:hover{
+    opacity: 0.6;
+    color: brown;
+    text-decoration: underline;
+}
+.clear-div{
+    clear: both;
+}
+
+hr{
+
+    border: solid black 2px;
+    width: 100%;
+    margin: 22px auto;
+
+
+}
+
+
+.personal-info{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-row-gap: 100px;
+    grid-template-areas: 
+     "p p p p de de de de de de de de"
+     "ed ed ed ed ei ei ei ei uv uv uv uv"
+     "pu pu pu pu pbc pbc pbc pbc pbc pbc pbc pbc"
+
+    
+    ;
+}
+.pp1{
+   
+   grid-area: p;
+
+ 
+}
+.details{
+    grid-area: de;
+    font-size: 16px;
+    
+   
+}
+.education{
+grid-area: ed;
+}
+
+.edu-info{
+grid-area: ei;
+}
+
+.uv-info{
+    grid-area: uv;
+}
+.publication{
+    grid-area: pu;
+}
+.pbc{
+    grid-area: pbc;
+    line-height: 25px;
+}
+.research_text{
+    text-decoration: none;
+    color: rgb(2, 26, 3);
+}
+
+/*----------------
+Footer Start
+----------*/
+.last-container{
+
+    background-color: rgb(152, 141, 128);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.last-container a{
+  
+    text-decoration: none;
+    color: white;
+    margin: 20px ;
+
+}
+
+.last-container p{
+
+ color: white;
+ margin: 10px ;
+}
