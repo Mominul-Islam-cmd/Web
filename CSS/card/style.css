@@ -1,0 +1,33 @@
+.container{
+    box-sizing: border-box;
+    display: flex;
+}
+.card{
+    width: 280px;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black ;
+}
+
+.imgs-style{
+    width: 100%;
+}
+
+.card-inside{
+    padding: 5px;
+    line-height: 1.5;
+    background-color: rgb(48, 137, 137);
+   color: white;
+   
+
+}
+
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card:hover{
+    box-shadow: 7px 15px 15px black;
+}

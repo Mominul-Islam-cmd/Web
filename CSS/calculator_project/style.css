@@ -1,0 +1,42 @@
+h2{
+    text-align: center;
+    color: rgb(26, 33, 164);
+}
+
+.text-body{
+    text-align: center;
+  
+}
+
+.text-input{
+    width: 700px;
+    height: 80px;
+    background-color: rgb(247, 251, 255);
+    border-radius: 10px;
+    border-color: rgb(16, 172, 172);
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    letter-spacing: 2px;
+    
+}
+.cal-body{
+    text-align: center;
+    
+    
+}
+
+.btn{
+    width: 97px;
+    height: 50px;
+    background-color: rgb(187, 210, 220);
+    border-radius: 4px;
+    margin: 1px;
+    
+}
+
+.btn:hover{
+    background-color: rgb(189, 228, 228);
+    opacity: 0.6;
+}
